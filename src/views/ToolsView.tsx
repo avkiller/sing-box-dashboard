@@ -41,7 +41,7 @@ import { allPeers, peerDisplayName, peerSSHAvailable } from "../lib/tailscaleSSH
 import { useTailscaleSSH } from "./TailscaleSSHConnect";
 
 const NETWORK_QUALITY_DEFAULT_URL = "https://mensura.cdn-apple.com/api/v1/gm/config";
-const STUN_DEFAULT_SERVER = "stun.voipgate.com:3478";
+const STUN_DEFAULT_SERVER = "stun.fuxudong.com:3478";
 
 export function ToolsView() {
   const api = useApi();
